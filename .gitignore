@@ -167,6 +167,7 @@ speed-measure-plugin*.json
 # pipenv
 Pipfile
 *.lock
+PIPENV_VENV_IN_PROJECT/
 
 # APScheduler
 *.db
