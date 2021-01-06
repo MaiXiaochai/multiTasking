@@ -8,10 +8,10 @@
 @CreatedOn  : 2021/1/5 21:36
 --------------------------------------
 """
-from requests import get
 from bs4 import BeautifulSoup as BS
+from requests import get
 
-urls = (f'https://www.cnblogs.com/#p{i}' for i in range(1, 51))
+urls = [f'https://www.cnblogs.com/#p{i}' for i in range(2, 5)]
 
 
 def craw(url):
@@ -33,11 +33,10 @@ def parser(html):
 
 
 if __name__ == '__main__':
-    url = []
     for i in urls:
-        url = i
-        break
+        show = f"[ {i} ]".center(128, '=')
+        print(show)
+        html = craw(i)
 
-    for result in parser(craw(url)):
-        print(result)
-
+        for result in parser(html):
+            print(result)
