@@ -12,7 +12,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # craw
 # 用了map的方式
-from demo.spider_simple import craw, urls, parser
+from spider_simple import craw, urls, parser
 
 with ThreadPoolExecutor() as pool:
     htmls = pool.map(craw, urls)

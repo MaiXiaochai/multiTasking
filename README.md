@@ -58,8 +58,16 @@ Python多任务
 + ![img.png](pics/img_8.png)
 + 语法和多线程几乎一模一样
   ![img.png](pics/img_9.png)
++ 多线程和多进程对比(CPU密集型计算)
+  ![img.png](pics/img_10.png)
 
 ##### 4.协程
+
++ `asyncio`库
++ 原理图
+  ![img.png](pics/img_11.png)
++ 代码样例
+  ![img.png](pics/img_12.png)
 
 ##### 5.资料相关
 
