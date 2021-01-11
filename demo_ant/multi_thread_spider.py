@@ -11,7 +11,7 @@
 from threading import Thread
 from time import time, sleep
 
-from demo.spider_simple import urls, craw
+from demo_ant.spider_simple import urls, craw
 
 
 def timer(func):

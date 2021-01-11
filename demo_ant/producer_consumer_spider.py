@@ -13,7 +13,7 @@ from threading import current_thread, Thread
 from time import sleep
 from random import randint
 
-from demo.spider_simple import craw, parser, urls
+from demo_ant.spider_simple import craw, parser, urls
 
 
 def do_craw(url_queue: Queue, html_queue: Queue):
