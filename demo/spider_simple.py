@@ -11,7 +11,7 @@
 from bs4 import BeautifulSoup as BS
 from requests import get
 
-urls = [f'https://www.cnblogs.com/#p{i}' for i in range(2, 5)]
+urls = [f'https://www.cnblogs.com/#p{i}' for i in range(2, 10)]
 
 
 def craw(url):
