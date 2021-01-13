@@ -13,7 +13,7 @@ from asyncio import get_event_loop, wait
 
 from aiohttp import ClientSession
 
-from demo_ant.spider_simple import urls
+from ant.spider_simple import urls
 
 
 async def async_craw(url):
