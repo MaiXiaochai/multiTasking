@@ -9,7 +9,7 @@
 --------------------------------------
 """
 from threading import Thread
-from time import time, sleep
+from time import time
 
 from demo_ant.spider_simple import urls, craw
 

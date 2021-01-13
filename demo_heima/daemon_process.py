@@ -14,8 +14,8 @@ from multiprocessing import Process
 
 
 def work():
-    for i in range(10):
-        print('工作中...')
+    for i in range(1, 11):
+        print(f'NO.{i}, 工作中...')
         sleep(0.2)
 
 
